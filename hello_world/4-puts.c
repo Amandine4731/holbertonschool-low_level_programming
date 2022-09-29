@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(void)
+int main(void) // takes no argument
 
 {
-puts("\"Programming is like building a multilingual puzzle"); /* print on the screen the sentence */
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
