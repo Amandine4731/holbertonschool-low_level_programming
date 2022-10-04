@@ -3,8 +3,8 @@
 #include "main.h"
 
 /**
- * Description: print _putchar in ASCII 
- * main - Entry point
+ * Description: print _putchar in ASCII
+ * main - main Entry point
  *
  * Return: Always 0 (Success)
  */
