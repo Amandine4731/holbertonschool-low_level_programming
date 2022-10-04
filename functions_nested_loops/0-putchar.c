@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * new librairy
+ * Description: print _putchar in ASCII 
  * main - Entry point
  *
  * Return: Always 0 (Success)
