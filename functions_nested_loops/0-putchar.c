@@ -10,7 +10,9 @@
  */
 int main(void)
 {
-write("_putchar\n");
+	char ch = '_putchar'
+	putchar(ch);
+	putchar('\n');
 
 return (0);
 }
