@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	int num = '0';
-
-	while(num <= 9);
-
-	putchar(num);
-
-	putchar('\n');
-	return (0);
+	int i, n;
+	for (n = 1; n <= 10; n++) {
+	for (i = n;;) {
+	if (i / 10 % 10 > i % 10) break;
+	if ((i /= 10) == 0) { printf("%d\n", n); break; }
+}
+}
+}
 }
