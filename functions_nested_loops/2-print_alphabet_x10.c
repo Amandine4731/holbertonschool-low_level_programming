@@ -7,18 +7,15 @@
 void print_alphabet_x10(void)
 /* prototype for the function */
 {
-	char ch = 'a';
-	int i = '0';
-	
-	while (i <= 10)
-	{
-		while (ch <= 'z')
-		{
-			_putchar(ch);
-			ch++;
-		}
-	i++;
-}
-	_putchar('\n');
-}
+int i;
+char ch;
 
+for (i = 0; i < 10; i++)
+{
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	  putchar('\n');
+}
+}
