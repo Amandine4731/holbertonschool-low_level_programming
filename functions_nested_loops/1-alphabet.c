@@ -3,14 +3,11 @@
 #include "main.h"
 
 /**
- * Description: print the alphabet in lowercase
+ * print_alphabet - Entry point
  * Return: Always 0.
  */
 void print_alphabet(void)
-/**
- * print_alphabet - Entry point
- * prototype for the function
- */
+/* prototype for the function */
 {
 	char ch = 'a';
 
