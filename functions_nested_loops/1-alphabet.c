@@ -1,4 +1,4 @@
-#include <stdlib>
+#include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -6,6 +6,8 @@
  * Description: print the alphabet in lowercase
  * Return: Always 0.
  */
+int void print_alphabet(void);
+/* prototype for the function */
 int main(void)
 /* main - check the code */
 {
