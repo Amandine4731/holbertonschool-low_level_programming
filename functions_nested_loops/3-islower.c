@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-* @c: The character to print
 * _islower - Entry point
 * Return: Always 0.
 */
