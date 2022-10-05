@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * @c: The character to print 
+  * @c: The character to print
   * _islower - Entry point
   * Return: Always 0.
   */
@@ -14,6 +14,5 @@ int _islower(int c)
 	else
 	{
 		return (0);
-	
 	}
 }
