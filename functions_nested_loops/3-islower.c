@@ -3,7 +3,7 @@
   * _islower - Entry point
   * Return: Always 0.
   */
-int _islower(int c);
+int _islower(int c)
 /* prototype for the function */
 {	
 	if(ch >= 'a' && ch <= 'z')
