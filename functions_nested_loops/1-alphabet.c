@@ -8,6 +8,8 @@
  */
 void print_alphabet(void);
 /* prototype for the function */
+int main(void)
+/* main - Entry point */
 {
 	char ch = 'a';
 
