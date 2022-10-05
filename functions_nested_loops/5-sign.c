@@ -7,16 +7,19 @@
 int print_sign(int n)
 /* prototype for the function */
 {
-	if (c >= 'a' && c <= 'z')
-	{
+		if (n > 0)
+		{
 		return (1);
-	}
-	else if (c >= 'A' && c <= 'Z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+		_putchar('+');
+		}
+			else if (n == 0)
+		{
+			return (0);
+			_putchar('0');
+		}
+			else if (n < 0)
+		{
+			return (-1);
+			_putchar('-');
+		}
 }
