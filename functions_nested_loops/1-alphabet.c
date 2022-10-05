@@ -6,10 +6,9 @@
  * Description: print the alphabet in lowercase
  * Return: Always 0.
  */
-int print_alphabet(void);
+void print_alphabet(void);
 /* prototype for the function */
-int main(void)
-/* main - check the code */
+
 {
 	char ch = 'a';
 
