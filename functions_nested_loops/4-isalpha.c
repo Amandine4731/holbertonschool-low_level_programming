@@ -2,21 +2,24 @@
 /**
 *_isalpha - checks for an alphabetic character
 *@c: the character to check
-* Return: 1 if c is lowercase, 0 otherwise
+* Return: 1 if c is an alphabetic character, 0 otherwise
 */
 int _isalpha(int c)
 /* prototype for the function */
 {
-	if (c >= 'a' && c <= 'z')
+	if (n > 0)
 	{
 		return (1);
+		_putchar('+');
 	}
-	else if (c >= 'A' && c <= 'Z')
-	{
-		return (1);
-	}
-	else
+	else if (n == 0)
 	{
 		return (0);
+		_putchar('0');
+	}
+	else if (n < 0)
+	{
+		return (-1);
+		_putchar('-');
 	}
 }
