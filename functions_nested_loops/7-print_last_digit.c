@@ -25,7 +25,7 @@ return (l);
 }
 else
 {
-lastDigit = -n % 10;
+lastDigit = ((n % -10)* -1);
 l = lastDigit;
 lastDigit = lastDigit + '0';
 _putchar(lastDigit);
