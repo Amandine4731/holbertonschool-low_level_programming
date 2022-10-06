@@ -23,18 +23,12 @@ _putchar(lastDigit);
 return (l);
 /* return in real number (beacause in the example, Julien convert in ASKII */
 }
-if (n < 0)
+else
 {
 lastDigit = -n % 10;
-/* I take the last digit of the value */
 l = lastDigit;
-/* capture the state of between conversion */
 lastDigit = lastDigit + '0';
-/* I convert the last digit to ASCII */
 _putchar(lastDigit);
-/* print the last digit */
 return (l);
-/* return in real number (beacause in the example, Julien convert in ASKII */
 }
 }
-/* l = no convert; lastDigit = convert in ASCII */
