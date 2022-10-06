@@ -1,7 +1,6 @@
 #include "main.h"
 /**
   * print_numbers - print numbers
-  * Return: the multiplication
   */
 void print_numbers(void)
 {
@@ -11,6 +10,5 @@ void print_numbers(void)
 	{
 	_putchar(n);
 	_putchar('\n');
-	return (0);
 	}
 }
