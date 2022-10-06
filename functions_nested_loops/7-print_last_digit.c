@@ -25,7 +25,8 @@ return (l);
 }
 else
 {
-lastDigit = ((n % -10) * -1); /* for the negatives values */
+lastDigit = ((n % -10) * -1);
+/* for the negatives values (n % -10 = -8; * -1 = 8) */
 l = lastDigit;
 lastDigit = lastDigit + '0';
 _putchar(lastDigit);
