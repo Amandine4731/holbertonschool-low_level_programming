@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * prin_diagonal - draws a diagonal line on the terminal
+  * print_diagonal - draws a diagonal line on the terminal
   * @n: to check
   */
 void print_diagonal(int n)
@@ -18,7 +18,7 @@ void print_diagonal(int n)
 	{
 	_putchar(s);
 	_putchar('\n');
-	_putchar(e);
+	return(e);
 	}
 	}
 
