@@ -7,19 +7,19 @@ void print_to_98(int n)
 {
 int i;
 
-for (i = n; i < 99; i++)
+for (n = i; n < 99; n++)
 {
-if (i > 9)
+if (n > 9)
 {
-_putchar(i / 10 + '0');
-_putchar(i % 10 + '0');
+_putchar(n / 10 + '0');
+_putchar(n % 10 + '0');
 }
-if (i < -9)
+if (n < -9)
 {
-_putchar(i / 10 + '0');
-_putchar(i % 10 + '0');
+_putchar(n / 10 + '0');
+_putchar(n % 10 + '0');
 }
-if (i != 98)
+if (n != 98)
 {
 putchar(',');
 putchar(' ');
