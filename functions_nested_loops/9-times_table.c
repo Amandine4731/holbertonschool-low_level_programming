@@ -20,16 +20,21 @@ void times_table(void)
 
 			result = num * n;
 
-		if (result >= 10)
-		{
-		_putchar((result / 10) + '0');
-		 _putchar((result % 10) + '0');
+			else (result >= 10)
+			{
+				_putchar((result / 10) + '0');
+				_putchar((result % 10) + '0');
+			}
+			if (result <= 9);
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((result / 10) + '0');
+				_putchar((result % 10) + '0');
+			}
+			_putchar('\n');
 		}
-		else
-		{
-		_putchar(' ');
-		}
-		_putchar('\n');
 	}
-}
 }
