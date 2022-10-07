@@ -11,7 +11,7 @@ char t = '_';
 
 for (r = 0; r <= n; r++)
 {
-if (r <= 0)
+if (n <= 0)
 {
 _putchar('\n');
 }
