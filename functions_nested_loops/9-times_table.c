@@ -20,11 +20,6 @@ void times_table(void)
 
 			result = num * n;
 
-			else (result >= 10)
-			{
-				_putchar((result / 10) + '0');
-				_putchar((result % 10) + '0');
-			}
 			if (result <= 9);
 			{
 				_putchar(' ');
