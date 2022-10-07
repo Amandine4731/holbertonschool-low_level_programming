@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
   * print_line - print a straight line
   * @n: to check
