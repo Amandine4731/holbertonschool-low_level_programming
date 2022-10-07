@@ -18,7 +18,7 @@ _putchar('\n');
 else
 {
 _putchar(t);
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
