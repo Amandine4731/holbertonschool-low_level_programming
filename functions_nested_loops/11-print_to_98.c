@@ -19,6 +19,12 @@ if (i < -9)
 _putchar(i / 10 + '0');
 _putchar(i % 10 + '0');
 }
+if (num != '9')
+{
+putchar(',');
+putchar(' ');
+}
+}
 }
 _putchar('\n');
 }
