@@ -2,14 +2,13 @@
 /**
   * print_line - print a straight line
   * @n: to check
-  * Return:
   */
 void print_line(int n)
 {
-int r;
+int r; /* nombre of loop turns */
 char t = '_';
 
-for (r = 0; r <= n; r++)
+for (r = 0; r < n; r++)
 {
 if (n <= 0)
 {
