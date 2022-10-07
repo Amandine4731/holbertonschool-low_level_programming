@@ -6,24 +6,20 @@
 void print_to_98(int n)
 {
 int i;
-int r;
 
-for (i = r; i < 10; i++)
+for (i = n; i < 99; i++)
 {
-for (n = r; n < 99; n++)
+if (i > 9)
 {
-if (n > 9)
-{
-_putchar(n / 10 + '0');
+_putchar(i / 10 + '0');
+_putchar(i % 10 + '0');
 }
-_putchar(n % 10 + '0');
-}
-if (n < -9)
+if (i < -9)
 {
-_putchar(n / 10 + '0');
+_putchar(i / 10 + '0');
+_putchar(i % 10 + '0');
 }
-_putchar(n % 10 + '0');
 }
 _putchar('\n');
 }
-}
+
