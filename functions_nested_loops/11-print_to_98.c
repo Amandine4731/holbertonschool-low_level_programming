@@ -6,10 +6,11 @@
 void print_to_98(int n)
 {
 int i;
+int r;
 
 for (i = 0; i < 10; i++)
 {
-for (n = 0; n < 99; n++)
+for (n = r; n < 99; n++)
 {
 if (n > 9)
 {
