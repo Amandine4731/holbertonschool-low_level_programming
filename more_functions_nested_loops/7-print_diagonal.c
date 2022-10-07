@@ -8,7 +8,7 @@ void print_diagonal(int n)
 	int r;
 	char s = '\\';
 
-	for (r = 0; r = n; r++)
+	for (r = 0; r < n; r++)
 	{
 	if (n <= 0)
 	{
