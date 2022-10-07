@@ -18,7 +18,7 @@ _putchar('\n');
 _putchar(n + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((num * n) + '0');
+result = num * n;
 if (result < 10)
 { 
 _putchar(' ');
