@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  * most_numbers - print numbers 10 times
+  * more_numbers - print numbers 10 times
   */
-void most_numbers(void)
+void more_numbers(void)
 {
 	int i;
 	int n = '0';
