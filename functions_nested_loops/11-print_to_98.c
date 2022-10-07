@@ -19,7 +19,7 @@ if (i < -9)
 _putchar(i / 10 + '0');
 _putchar(i % 10 + '0');
 }
-if (i != '9')
+if (i != 98)
 {
 putchar(',');
 putchar(' ');
