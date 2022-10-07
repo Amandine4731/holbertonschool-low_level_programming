@@ -13,7 +13,6 @@ for (r = 0; r <= n; r++)
 {
 if (n <= 0)
 {
-_putchar('\n');
 }
 else
 {
