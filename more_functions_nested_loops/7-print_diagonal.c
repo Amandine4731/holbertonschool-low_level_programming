@@ -23,7 +23,8 @@ void print_diagonal(int n)
 				_putchar(e);
 			}
 
-			_putchar(n);
+			_putchar(s);
 			_putchar('n');
 		}
-	}
+}
+}
