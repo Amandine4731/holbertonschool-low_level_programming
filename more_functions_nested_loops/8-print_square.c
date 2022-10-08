@@ -6,9 +6,10 @@
 void print_square(int size)
 {
 int r; /* nombre of loop turns */
+int i;
 char t = '#';
 
-for (size = 0; size < 10; r++)
+for (i = 0; i < 10; i++)
 {
 for (r = 0; r < size; r++)
 {
