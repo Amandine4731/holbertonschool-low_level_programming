@@ -8,7 +8,11 @@ void print_diagonal(int n)
 	int r = 0; /* nbr of loop turns */
 	char s = '\\';
 	char e =  ' ';
-
+	
+	if (n <= 0)
+	{
+	_putchar('\n');
+	}
 	for (r = 0; r < n; r++)
 	{
 	while (n > 0)
@@ -16,11 +20,7 @@ void print_diagonal(int n)
 	_putchar(e);
 	n++;
 	}
-	if (n <= 0)
-	{
-	_putchar('\n');
-	}
-	else
+	if (n > 0)
 	{
 	_putchar(s);
 	_putchar('\n');
