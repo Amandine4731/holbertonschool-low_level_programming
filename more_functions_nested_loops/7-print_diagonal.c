@@ -6,16 +6,15 @@
 void print_diagonal(int n)
 {
 	int r = 0; /* nbr of loop turns */
-	int l = 0;
 	char s = '\\';
 	char e =  ' ';
 
 	for (r = 0; r < n; r++)
 	{
-	while (l > 0)
+	while (n > 0)
 	{
 	_putchar(e);
-	l++;
+	n++;
 	}
 	if (n <= 0)
 	{
