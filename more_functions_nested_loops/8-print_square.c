@@ -8,6 +8,8 @@ void print_square(int size)
 int r; /* nombre of loop turns */
 char t = '#';
 
+for (r = 0; r < 10; r++)
+{
 for (r = 0; r < size; r++)
 {
 if (size <= 0)
@@ -20,4 +22,5 @@ _putchar(t);
 }
 }
 _putchar('\n');
+}
 }
