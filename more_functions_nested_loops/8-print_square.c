@@ -13,10 +13,7 @@ for (i = 0; i < size; i++)
 {
 for (r = 0; r < size; r++)
 {
-if (size <= 0)
-{
-}
-else
+if (size > 0)
 {
 _putchar(t);
 }
