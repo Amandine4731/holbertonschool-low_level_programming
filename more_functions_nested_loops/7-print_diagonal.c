@@ -7,8 +7,8 @@ void print_diagonal(int n)
 {
 	int r = 0; /* nbr of loop turns */
 	int l = 0;
-	char s = '\\';
-	char e =  ' ';
+	int s = '\\';
+	int e =  ' ';
 
 	if (n <= 0)
 	{
