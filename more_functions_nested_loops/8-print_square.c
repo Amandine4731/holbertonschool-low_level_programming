@@ -20,4 +20,8 @@ _putchar(t);
 }
 _putchar('\n');
 }
+else
+{
+_putchar('\n')
+}
 }
