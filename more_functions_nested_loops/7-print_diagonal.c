@@ -9,7 +9,8 @@ void print_diagonal(int n)
 	char s = '\\';
 	char e =  ' ';
 
-
+	for (r = 0; r < e; r++)
+	{
 	for (r = 0; r < n; r++)
 	{
 	_putchar(e);
@@ -22,7 +23,8 @@ void print_diagonal(int n)
 	_putchar(s);
 	_putchar('\n');
 	}
-	_putchar(+e);
 	}
+	_putchar(+e);
 
+	}
 }
