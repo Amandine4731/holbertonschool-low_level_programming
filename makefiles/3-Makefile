@@ -10,7 +10,7 @@ clean:
 	$(RM) *~ $(NAME)
 oclean:
 	$(RM) $(OBJ)
-fclean:
-	$(RM) *~ $(NAME) $(OBJ)
+fclean: 
+	clean ocean
 re:
-	$(CC) $(SRC)
+	fclean all
