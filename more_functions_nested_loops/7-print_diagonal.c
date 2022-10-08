@@ -20,8 +20,9 @@ void print_diagonal(int n)
 	_putchar(s);
 	_putchar('\n');
 	}
+	while (r > 0)
 	_putchar(e);
-	n++;
+	r++;
 	}
 
 }
