@@ -7,6 +7,7 @@ void print_triangle(int size)
 {
 	int r; /* nombre of loop turns */
 	int i;
+	int o;
 	char t = '#';
 	char e = ' ';
 
@@ -14,11 +15,12 @@ void print_triangle(int size)
 	{
 	_putchar('\n');
 	}
-	for (i = 0; i < size; i--)
+	for (i = 0; i < size; i++)
 	{
+		o = size - i;
 		for (r = 0; r < size; r++)
 		{
-			i = r;
+			o = r;
 			if (size > 0)
 			{
 				_putchar(t);
