@@ -5,16 +5,17 @@
   */
 void print_diagonal(int n)
 {
-	int r = 0;
+	int r = 0; /* nbr of loop turns */
+	int l = 0;
 	char s = '\\';
 	char e =  ' ';
 
 	for (r = 0; r < n; r++)
 	{
-	while (r > 0)
+	while (l > 0)
 	{
 	_putchar(e);
-	r++;
+	l++;
 	}
 	if (n <= 0)
 	{
