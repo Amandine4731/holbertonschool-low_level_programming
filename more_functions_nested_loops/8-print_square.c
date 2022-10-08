@@ -20,6 +20,7 @@ _putchar(t);
 else
 {
 }
+}
 _putchar('\n');
 }
 }
