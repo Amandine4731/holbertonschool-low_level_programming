@@ -9,7 +9,7 @@ int r; /* nombre of loop turns */
 int i;
 char t = '#';
 
-for (i = 0; i < 10; i++)
+for (i = 0; i < size; i++)
 {
 for (r = 0; r < size; r++)
 {
