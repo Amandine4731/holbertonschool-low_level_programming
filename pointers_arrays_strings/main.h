@@ -6,5 +6,5 @@
 #include <ctype.h>
 #include <locale.h>
 int _putchar(char ch);
-void reset_to_98(int n);
+void reset_to_98(int *n);
 #endif
