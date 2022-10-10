@@ -5,9 +5,13 @@
   */
 int _strlen(char *s)
 {
-	int size;
-	int tab[];
+unsigned int count = 0;
 
-	for (*s = 0; *s < size; *s++)
-		tab[*s] = [*s] * *s;
+    while(*s!='\0')
+    {
+        count++;
+        s++;
+    }
+
+    return count;
 }
