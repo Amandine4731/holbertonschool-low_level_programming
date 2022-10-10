@@ -5,6 +5,13 @@
  */
 void print_rev(char *s)
 {
-	printf("%s\n", s);
-	printf("%s\n", strrev(s));
+	int leng;
+	
+	(s[i], s[n - i - 1]);
+	for(*s = leng - 1; *s >= 0; *s--)
+
+	reverseString(s);
+
+	_putchar(ch);
+	_putchar('\n');
 }
