@@ -20,7 +20,7 @@ void print_triangle(int size)
 	for (i = 0; i < size; i++)
 	{
 		v = size - i;
-		for (r = 0; r < v; r++)
+		for (r = 1; r < size; r++)
 		{
 			if (r < v)
 			{
