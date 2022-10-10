@@ -4,10 +4,8 @@
   * @*n: pointer n
   */
 void reset_to_98(int *n);
-
-int main()
 {
-	int n = 98;
+	int *n = 98;
 
-	printf("n=%d\n", n);
+
 }
