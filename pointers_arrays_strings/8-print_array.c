@@ -6,7 +6,7 @@
  */
 void print_array(int *a, int n)
 {	
-	int i;
+	int i = 0;
 
 	for (i = i - 1; i < n; i++)
 	printf("%d, ", a[i]);
