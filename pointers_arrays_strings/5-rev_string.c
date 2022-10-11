@@ -6,7 +6,8 @@
 void rev_string(char *s)
 {
 	int i = 0; /* index */
-
+	
+	_putchar(s[i]);
 	while (s[i] != '\0') /* count the number of characters in your string */
 	{
 		i++;
