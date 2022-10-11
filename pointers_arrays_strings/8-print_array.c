@@ -6,7 +6,7 @@
  */
 void print_array(int *a, int n)
 {	
-	int i;
+	int i = 0;
 
 	while (a[i] != '\0') /* count the number of characters in your string */
 	{
