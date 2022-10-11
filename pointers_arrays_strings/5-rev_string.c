@@ -12,8 +12,9 @@ void rev_string(char *s)
 		_putchar(s[i]);
 	}
 		_putchar('\n');
-	if (i = i - 1; i >= 0; i--)
+	if (i = i - 1 && i >= 0)
 	{
+		i--;
 		_putchar(s[i]);
 	}
 		_putchar('\n');
