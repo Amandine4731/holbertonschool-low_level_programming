@@ -5,12 +5,16 @@
  */
 void rev_string(char *s)
 {
-	while (s[i] != '\0')
-	{	
-		i++;
-	}
-	while (i = i - 1 && i >= 0)
+	int c = 0;
+	int *t;
+
+	while (*s != '\0')
 	{
-		i--;
+	s++;
+	c++;
 	}
+
+	int tmp = *s;
+	*s = *t;
+	*t = tmp;
 }
