@@ -7,8 +7,14 @@
 void print_array(int *a, int n)
 {	
 	int i;
-	int s = 2;
 
-	for (i = s ; i < n; i++)
-	printf(", %d", a[i]);
+	while (a[i] != '\0') /* count the number of characters in your string */
+	{
+		i++;
+	}
+
+	for (i = i - 2 ; i < n; i++)
+	{
+		printf(", %d", a[i]);
+	}
 }
