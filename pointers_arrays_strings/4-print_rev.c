@@ -5,17 +5,15 @@
  */
 void print_rev(char *s)
 {
-	int i = 0;
-	int end = s[i] != 0;
-
-	while (s[i] != 0)
+	int i = 0; /* index */
+	
+	while (s[i] != '\0') /* count the number of characters in your string */
 	{
-	_putchar(s[i]);
-	i--;
-	for (i = 0; i <= end; i--)
+		i++;
+	}
+	for (; s[i] <= 0; i--)
 	{
-	_putchar(s[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
-}
 }
