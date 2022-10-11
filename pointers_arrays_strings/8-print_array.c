@@ -7,9 +7,12 @@
 void print_array(int *a, int n)
 {	
 	int i = 0;
-
-	for (i = 0; i < n; i++)
+	int nbr;
+	for (nbr = 0; nbr <= 9; nbr++)
+	{
+	for (i = nbr; i < n; i++)
 	{
 		printf(", %d", a[i]);
 	}
+}
 }
