@@ -5,13 +5,12 @@
  */
 void print_rev(char *s)
 {
-	int leng;
-	
-	(s[i], s[n - i - 1]);
-	for(*s = leng - 1; *s >= 0; *s--)
+	int i = 0;
 
-	reverseString(s);
-
-	_putchar(ch);
+	while (s[i] != 0)
+	{
+	_putchar(s[i]);
+	i--;
+	}
 	_putchar('\n');
 }
