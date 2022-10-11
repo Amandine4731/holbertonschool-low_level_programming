@@ -8,6 +8,6 @@ void print_array(int *a, int n)
 {	
 	int i;
 
-	for (i = 0; i < n - 1; i++)
+	for (i = i - 1; i < n; i++)
 	printf("%d, ", a[i]);
 }
