@@ -6,12 +6,12 @@
 void print_rev(char *s)
 {
 	int i = 0; /* index */
-	
+
 	while (s[i] != '\0') /* count the number of characters in your string */
 	{
 		i++;
 	}
-	for (; s[i] <= 0; i--)
+	for (; s[i] >= 0; i--)
 	{
 		_putchar(s[i]);
 	}
