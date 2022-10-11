@@ -5,15 +5,16 @@
  */
 void rev_string(char *s)
 {
-	int i = 0; /* index */
+	int i = 0;
 
-	while (s[i] != '\0') /* count the number of characters in your string */
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		i++;
+		_putchar(s[i]);
+		_putchar('\n');
 	}
 	for (i = i - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
