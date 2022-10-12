@@ -5,15 +5,18 @@
  */
 void puts_half(char *str)
 {
-	int i = 0; /* index */
+	int n = 0;
+	int h = 0;
 
-	while (str[i] != '\0') /* count the number of characters in your string */
+	while (str[n] != '\0')
 	{
-		i++;
+		n++;
+		h++;
 	}
-	for (i = i - 1; i >= 0; i--)
+
+	for (h = h / 2; str[h] != '\0'; h++)
 	{
-		_putchar(str[i]);
+		_putchar(str[h]);
 	}
 		_putchar('\n');
 }
