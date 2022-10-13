@@ -10,15 +10,15 @@ char *_strcat(char *dest, char *src)
 	int i = 0;
 	int n = 0;
 
-	while (src[i] != '\0')
-	{
-		i++;
-	while (dest[n] != '\0')
+	while (src[n] != '\0')
 	{
 		n++;
+	while (dest[i] != '\0')
+	{
+		i++;
 	}
-		dest[n] = src[i];
+		dest[i] = src[n];
 }
-	dest[n] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
