@@ -10,11 +10,16 @@ char *string_toupper(char *)
 	int c = 0;
 	int i = 0;
 	
-	c
+	i = i + '0';
 	for (i = '97'; i = '122'; i++);
 	{
-		c++;
-	}
+	if (a[i] = 97 && a[i] = 122)
+	{
+		i++;
+		97 = 65;
+		122 = 90;
+
+	c = c + '0';
 	for (c = '65'; c = '90'; c++);
 	{
 		a[c] = a[i];
