@@ -1,8 +1,8 @@
 #include "main.h"
 /**
   * reverse_array - reverse the content of an array of integers
-  * @a:
-  * @n:
+  * @a: a pointer
+  * @n: number of elements
   */
 void reverse_array(int *a, int n)
 {
@@ -21,5 +21,4 @@ void reverse_array(int *a, int n)
 	a[i] = tmp;
 	c++;
 	}
-}
-	
+}	
