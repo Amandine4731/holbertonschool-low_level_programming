@@ -2,6 +2,7 @@
 /**
  * string_toupper - change all lowercase letters of a string to uppercase
  * @a: the pointer
+ * Return: to the destination
  */
 char *string_toupper(char *a)
 {
