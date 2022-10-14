@@ -20,9 +20,7 @@ char *leet(char *a)
 				a[i] = c[n / 2];
 				break;
 			}
-
-			return (a);
 		}
-
 	}
+	return (a);
 }
