@@ -3,7 +3,7 @@
  * _strchr - locate a character in a string
  * @s: a pointer
  * @c: a variable
- * Return:
+ * Return: (p + i) and 0
  */
 char *_strchr(char *s, char c)
 {
@@ -12,8 +12,8 @@ char *_strchr(char *s, char c)
 
 	while (*s != c)
 	{
-		++s;
-		++i;
+		s++;
+		i++;
 	}
 	if (*s == c)
 	{
