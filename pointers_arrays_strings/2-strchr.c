@@ -15,12 +15,12 @@ char *_strchr(char *s, char c)
 		s++;
 		i++;
 	}
-	if (*s == c && *s == '\0' && *s != ',')
+	if (*s == c && *s == '\0' &&)
 	{
 		return (p + i);
 	}
 	else
 	{
-		return (0);
+		return (p);
 	}
 }
