@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strpbrk - searche a string for any of a set of bytes
+ * _strpbrk - search a string for any of a set of bytes
  * @s: a pointer compared
  * @accept: a pointer to compare
- * Return:
+ * Return: to s and 0
  */
 char *_strpbrk(char *s, char *accept)
 {
