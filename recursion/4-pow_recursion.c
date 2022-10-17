@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * _pow_recursion - to return the factorial of a given number
- * @n: a pointer char
- * Return: recusive and 0
+ * @x: a variable
+ * @y: a variable
+ * Return: recusive and -1 and 1
  */
 int _pow_recursion(int x, int y)
 {

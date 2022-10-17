@@ -2,7 +2,7 @@
 /**
  * factorial - to return the factorial of a given number
  * @n: a pointer char
- * Return: recusive and 0
+ * Return: recusive and -1 and 1
  */
 int factorial(int n)
 {
