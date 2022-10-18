@@ -5,13 +5,15 @@
  * Return: recusive and -1 and 1
  */
 int _sqrt_recursion(int n)
-{
-	if (n < 0)
+{	
+	int m = 0;
+
+	if (n == m * m)
 	{
-		return (-1);
+		return (m);
 	}
 	else
 	{
-		return (_sqrt_recursion(n - 1) * (1 / 2));
+		return (-1);
 	}
 }
