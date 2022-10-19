@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * @argv: the name of the program
+ * @argc: arguments count
+ * @argv: arguments values
  * Return: 0
  */
 int main(int argc, char *argv[])
