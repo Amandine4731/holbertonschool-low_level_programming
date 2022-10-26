@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * free_grid - to free a 2 dimensional grid (alloc_grid)
- * @width: a pointer to a pointer
+ * @grid: a pointer to a pointer
  * @height: variable
  */
 void free_grid(int **grid, int height)
