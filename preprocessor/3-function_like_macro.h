@@ -1,3 +1,3 @@
-#ifndef SUM(x, y)
-#define sums(x, y) ((x) + (y))
+#ifndef ABS(x)
+#define ABS(x) (x)
 #endif
