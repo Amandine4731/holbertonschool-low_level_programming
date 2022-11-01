@@ -3,10 +3,10 @@
 #include <string.h>
 /**
  * new_dog - informations about the new dog
- * @d: all informations
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
+ * Return: the pointer
  * Description: informations about the new dog (name, age and owner)
  */
 dog_t *new_dog(char *name, float age, char *owner)
