@@ -9,12 +9,16 @@ void print_name(char *name, void (*f)(char *))
 {
 	int i;
 
-	if (name)
+	if (name == NULL)
+	{
+		exit(0);
+	}
+	else
 	{
 		for (i = 0; name[i] != '\0'; i--)
 		{
 			f(&name[i]);
 		}
-}
+	}
 }
 
