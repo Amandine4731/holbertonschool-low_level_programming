@@ -13,7 +13,7 @@ void print_name(char *name, void (*f)(char *))
 	{
 		exit(0);
 	}
-	if (name)
+	else
 	{
 		for (i = 0; name[i] != '\0'; i--)
 		{
