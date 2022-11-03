@@ -17,20 +17,19 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("error\n");
+		printf("Error\n");
 		exit(98);
 	}
 	if (f == NULL || argv[2][1] != '\0')
 	{
-		printf("error\n");
+		printf("Error\n");
 		exit(99);
 	}
 	if ((argv[2][0] == '/' || argv[2][0] == '%') && argv[3][0] == '0')
 	{
-		printf("error\n");
+		printf("Error\n");
 		exit(100);
 	}
 	printf("%d\n", f(a, b));
 	return (0);
 }
-
