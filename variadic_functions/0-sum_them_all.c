@@ -2,7 +2,7 @@
 /**
  * sum_them_all - to return the sum of all its parameters
  * @n: a variable const unsigned int
- * Return: 0 if n == 0
+ * Return: 0 if n == 0 , the resultat of the addition
  */
 int sum_them_all(const unsigned int n, ...)
 {
