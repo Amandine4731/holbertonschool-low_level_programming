@@ -6,8 +6,8 @@
  */
 int sum_listint(listint_t *head)
 {
-	unsigned resultat = 0;
-		
+	unsigned int resultat = 0;
+
 	if (head == NULL)
 		return (0);
 	while (head != NULL)
