@@ -5,17 +5,17 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *copyNode;
+	listint_t *temp;
 
 	if (head != NULL)
 	{
 
 		while ((*head) != NULL)
 		{
-			copyNode = (*head)->next;
+			temp = (*head)->next;
 			free(*head);
 			(*head) = NULL;
-			(*head) = copyNode;
+			(*head) = temp;
 		}
 	}
 }
