@@ -2,7 +2,7 @@
 /**
  * get_nodeint_at_index - to return nth node of a list
  * @head: pointer
- * @index: variable unsigned int
+ * @index: the index of the node, starting at 0
  * Return: Null if node does not exit
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
