@@ -21,5 +21,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	read(fd, p, letters);
 
 	close(fd);
-	return (write(1, p, strlen(p)));
+	return (write(STDOUT_FILENO, p, strlen(p)));
 }
