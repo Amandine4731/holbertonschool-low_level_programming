@@ -23,11 +23,11 @@ int main(int argc, char *argv[])
 	while (size > 0)
 	{
 		size = read(fdsource, buffer, 1024);/* copy of fdsource in the buffer */
-		if (size == -1)
-		{
+	if (size == -1)
+	{
 	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 	exit(98);
-		}
+	}
 		wr = write(fddest, buffer, size);
 		if (wr == -1)
 		{
