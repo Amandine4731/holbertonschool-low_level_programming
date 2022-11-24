@@ -3,7 +3,7 @@
  * delete_dnodeint_at_index - delete a node at index
  * @head: the first node
  * @index: the index of the node, start at 0
- * Return: 
+ * Return: 1 on success -1 in failed
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
@@ -19,4 +19,4 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		free(p);
 	}
 		return (1);
-}  
+}
