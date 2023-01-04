@@ -31,7 +31,7 @@ int binary_search(int *array, size_t size, int value)
 			for (i = first; i < last; i++)
 				printf("%d, ", array[i]);
 			printf("%d\n", array[last]);
-			continue;
+			return (i);
 		}
 		else
 		{
